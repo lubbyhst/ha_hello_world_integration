@@ -1,7 +1,6 @@
 import requests
 from homeassistant.components.sensor import SensorEntity
-from const import CONF_API_URL, CONF_NAME
-from . import DOMAIN
+from .const import DOMAIN, CONF_API_URL, CONF_NAME
 
 DOMAIN = DOMAIN
 
