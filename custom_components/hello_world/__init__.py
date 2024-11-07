@@ -3,6 +3,8 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.typing import ConfigType
 from .const import DOMAIN
 
+DOMAIN = DOMAIN
+
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up the Hello World component."""
     hass.data[DOMAIN] = {}

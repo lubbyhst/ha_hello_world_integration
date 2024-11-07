@@ -3,6 +3,8 @@ from homeassistant.components.sensor import SensorEntity
 from homeassistant.const import CONF_NAME, CONF_API_URL
 from . import DOMAIN
 
+DOMAIN = DOMAIN
+
 async def async_setup_entry(hass, config_entry, async_add_entities):
     """Set up Hello World sensor based on a config entry."""
     name = config_entry.data.get(CONF_NAME)

@@ -2,6 +2,8 @@ import voluptuous as vol
 from homeassistant import config_entries
 from .const import DOMAIN
 
+DOMAIN = DOMAIN
+
 @config_entries.HANDLERS.register(DOMAIN)
 class HelloWorldConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     """Config flow for Hello World integration."""
