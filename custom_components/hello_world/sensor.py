@@ -36,6 +36,6 @@ class HelloWorldSensor(SensorEntity):
             response = requests.get(self._api_url)
             response.raise_for_status()
             data = response.json()
-            self._state = data.get("message", "No message")
+            self._state = data.get("userId", "No UserId found")
         except requests.RequestException:
             self._state = "Error"
