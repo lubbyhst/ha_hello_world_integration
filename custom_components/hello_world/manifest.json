@@ -1,0 +1,10 @@
+{
+  "domain": "hello_world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "documentation": "https://example.com/docs/hello_world",
+  "dependencies": [],
+  "codeowners": ["@your-github-username"],
+  "requirements": ["requests>=2.25.1"],
+  "iot_class": "cloud_polling"
+}
